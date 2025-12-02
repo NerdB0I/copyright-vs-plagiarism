@@ -45,6 +45,8 @@ img {
 }
 
 .source {
+    padding-left: 5px;
+    padding-right: 5px;
     position: fixed;
     bottom: 0px;
     left: 0px;
