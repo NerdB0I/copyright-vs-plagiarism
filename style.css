@@ -14,18 +14,27 @@ body {
 }
 .accent {
     background-color: var(--accent);
+    padding: 2px 16px;
+    margin-bottom: 16px;
 }
 
 .section {
-    padding: 4px;
-    display: inline-block;
+    margin: 8px;
 }
 .heading {
     background-color: var(--accent);
-    align-self: left;
-    width: 30%;
+    display: inline-block;
+    padding: 4px;
+    width: calc(30% - 12px);
+    vertical-align: top;
 }
+.heading h1 { font-size: 100%; text-align: center; }
 .content {
-    align-self: right;
-    width: 70%;
+    display: inline-block;
+    padding: 4px;
+    width: calc(70% - 12px);
+    text-shadow: none;
+}
+.content p {
+    margin: 0px;
 }
