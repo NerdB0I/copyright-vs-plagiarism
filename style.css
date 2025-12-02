@@ -1,5 +1,6 @@
 :root {
     --bg_color: #F0EDEE; /* "Platiunum" */
+    --bg_offset: #E0DCDD;
     --accent: #58A4B0; /* "Pacific Blue" */
     --text_color: #000;
     --text_shadow: #555358; /* "Charcoal" */
@@ -49,4 +50,8 @@ img {
     padding-right: 5px;
     text-shadow: none;
     border-top: 4px solid var(--text_color);
+}
+a:hover {
+    background-color: var(--bg_offset);
+    border-radius: 8px;
 }
